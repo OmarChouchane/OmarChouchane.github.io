@@ -87,10 +87,9 @@ const Chapter8Birthday: React.FC = () => {
                     <p className="mb-4">Here's what I wish for you...</p>
                     <p className="mb-4">A year filled with laughter, love, and all the joy you deserve.</p>
                     <p className="mb-4">May every dream you have come true, and may we continue to build beautiful memories together.</p>
-                    <p className="italic text-love-soft">And here's my real gift to you...</p>
+                    <p className="italic text-love-soft">And here's my real gift to you</p>
                     
-                    {/* Replace this with details about your actual gift */}
-                    <p className="font-bold mt-4">[taw ta3ref ghodwa ...]</p>
+                    <p className="font-bold mt-4">check under the bed ...</p>
                   </div>
                 </div>
               </div>

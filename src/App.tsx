@@ -30,7 +30,7 @@ const App = () => {
       <TooltipProvider>
         {/* Background music hidden audio element */}
         <audio id="background-music" loop>
-          <source src="/sw.mp3" type="audio/mpeg" />
+          <source src="/those-eyes.mp3" type="audio/mpeg" />
         </audio>
 
         <Toaster />

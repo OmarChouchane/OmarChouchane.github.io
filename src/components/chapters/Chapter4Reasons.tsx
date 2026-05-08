@@ -10,26 +10,24 @@ interface LoveReason {
 
 const loveReasons: LoveReason[] = [
   { text: "The way you smile" },
-  { text: "Your loyalty" },
-  { text: "Your passion" },
+  { text: "Your smell" },
+  { text: "Your energy" },
   { text: "The way you understand me" },
-  { text: "Your strength" },
-  { text: "Your kindness" },
-  { text: "The way you care for others" },
+  { text: "Your softness" },
+  { text: "Your presence" },
   { text: "Your silly jokes" },
-  { text: "How you always know what to say" },
+  { text: "The way you make me feel understood" },
   { text: "The way you look at me" },
-  { text: "Your determination" },
+  { text: "Your soul" },
   { text: "How you push me to be better" },
   { text: "The little things you do" },
   { text: "Your honesty" },
   { text: "Your sense of humor" },
   { text: "How we can talk for hours" },
   { text: "The way you support my dreams" },
-  { text: "Your thoughtfulness" },
+  { text: "Your kindness" },
   { text: "Your endless positivity" },
   { text: "How you make me feel safe" },
-  { text: "Because you're you" },
   { text: "Everything that makes you unique" },
   { text: "Because you're you" }
   
@@ -50,7 +48,7 @@ const Chapter4Reasons: React.FC = () => {
     <div className="chapter-section min-h-screen py-20 bg-gradient-to-b from-love-dark to-[#1a181d]">
       <FadeInSection>
         <h2 className="text-3xl md:text-4xl font-playfair mb-16 text-center glow-effect">
-          22 Reasons I Love You
+          21 Reasons I Love You
         </h2>
       </FadeInSection>
 

@@ -8,40 +8,58 @@ import PolaroidPhoto from '../PolaroidPhoto';
 const galleryItems = [
   {
     id: 1,
-    image: '/bac-sport.jpg',
-    caption: 'Bac Sport',
-    rotation: -3
+    image: "/marche.jpeg",
+    caption: "Marche fel Menzah",
+    rotation: -3,
   },
   {
     id: 2,
-    image: '/awel-le7yet-jaddi.jpg',
-    caption: 'Awel Le7yet Jaddi',
-    rotation: 2
+    image: "/sidibou.jpeg",
+    caption: "Sidi Bou Said",
+    rotation: 2,
   },
   {
     id: 3,
-    image: '/awel-match-koura.jpg',
-    caption: 'Awel Match Koura',
-    rotation: -1
+    image: "/bardo.jpeg",
+    caption: "Bardo Museum",
+    rotation: -1,
   },
   {
     id: 4,
-    image: '/awel-frippe.jpg',
-    caption: 'Awel Habta Lel Frippe',
-    rotation: 3
+    image: "/padel.jpeg",
+    caption: "Padel",
+    rotation: 3,
   },
   {
     id: 5,
-    image: '/awel-camping.jpg',
-    caption: 'Awel Camping',
-    rotation: -2
+    image: "/batta.jpeg",
+    caption: "Batta",
+    rotation: -2,
   },
-  
+
   {
     id: 6,
-    image: '/awel-manege.jpg',
-    caption: 'Awel Marra Nemchiw Lel Manège',
-    rotation: 1
+    image: "/balcon.jpeg",
+    caption: "Rkchetna fel balcon",
+    rotation: 1,
+  },
+  {
+    id: 7,
+    image: "/beach.jpeg",
+    caption: "Beach Date",
+    rotation: 1,
+  },
+  {
+    id: 8,
+    image: "/darjeld.jpeg",
+    caption: "Dar El Jeld",
+    rotation: -3,
+  },
+  {
+    id: 9,
+    image: "/marsa.jpeg",
+    caption: "El Marsa",
+    rotation: 2,
   },
 ];
 
@@ -79,7 +97,7 @@ const Chapter7Gallery: React.FC = () => {
               <img 
                 src={selectedPhoto.image} 
                 alt={selectedPhoto.caption}
-                className="w-full max-h-[70vh] object-contain"
+                className="w-full max-h-[90vh] object-contain"
               />
               <p className="text-center mt-4 text-xl font-playfair text-love-soft">
                 {selectedPhoto.caption}

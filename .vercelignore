@@ -1,0 +1,4 @@
+bun.lockb
+.pnpm-debug.log
+node_modules/
+*.log
